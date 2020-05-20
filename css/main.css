@@ -1,0 +1,18 @@
+body{
+    background-color: aqua;
+    margin: 0 auto;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: gray;
+  }
+  
