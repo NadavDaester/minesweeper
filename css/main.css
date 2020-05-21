@@ -1,18 +1,41 @@
 body{
-    background-color: aqua;
+    background-color:black;
     margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
 }
 td {
     display: table-cell;
     vertical-align: inherit;
-
+    border: 3px ridge lightgrey;
+    transition: 1s ease;
 }
-
 .cell {
     width: 40px;
     height: 40px;
     text-align: center;
     font-size: 1.5em;
     background-color: gray;
-  }
+}
+.cell.shown {
+    background-color: whitesmoke;
+}
+table{
+    border-spacing: unset;
+    margin: 0 auto;
+}
+
+.timer{
+    color: red;
+}
+.buttons-container{
+    margin: 10px;
+    
+}
+button{
+    font-weight: bold;
+}
+.status{
+    color:red;
+}
   

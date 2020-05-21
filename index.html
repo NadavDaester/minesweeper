@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mine swipper</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body onload="init()">
-    
 
-
-
-
-
+<body onload="init(4,2)">
+    <div class="timer">Game Time: 00</div>
+    <div class="status"></div>
+    <div class="buttons-container">
+        <button onclick="init(4,2)">easy</button>|
+        <button onclick="init(8,12)">medium</button>|
+        <button onclick="init(12,30)">hard</button>
+    </div>
     <div class="board-container"></div>
     <script src="js/main.js"></script>
     <script src="js/utils.js"></script>
 </body>
+
 </html>
